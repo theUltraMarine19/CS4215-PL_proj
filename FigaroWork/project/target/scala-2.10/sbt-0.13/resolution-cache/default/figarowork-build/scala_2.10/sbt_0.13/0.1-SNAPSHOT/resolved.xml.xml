@@ -4,7 +4,7 @@
 		module="figarowork-build"
 		revision="0.1-SNAPSHOT"
 		status="integration"
-		publication="20180320113754"
+		publication="20180331210808"
 		e:sbtVersion="0.13" e:scalaVersion="2.10"
 	>
 		<description>
