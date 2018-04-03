@@ -1,5 +1,3 @@
-package com.cra.figaro.example
-
 import com.cra.figaro.algorithm._
 import com.cra.figaro.algorithm.sampling._
 import com.cra.figaro.algorithm.factored._
