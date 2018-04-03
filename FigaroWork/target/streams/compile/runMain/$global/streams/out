@@ -1,4 +1,4 @@
-[0m[[0minfo[0m] [0mRunning Firms [0m
+[0m[[0minfo[0m] [0mRunning Abstract [0m
 [0m[[0mdebug[0m] [0mWaiting for threads to exit or System.exit to be called.[0m
 [0m[[0mdebug[0m] [0m  Classpath:[0m
 [0m[[0mdebug[0m] [0m	/home/arijit/Documents/Sem 6/PLproj/FigaroWork/target/scala-2.12/classes[0m
@@ -33,10 +33,6 @@
 [0m[[0mdebug[0m] [0m	/home/arijit/Documents/Sem 6/PLproj/FigaroWork/lib_managed/bundles/org.scala-lang.modules/scala-swing_2.12/scala-swing_2.12-2.0.0.jar[0m
 [0m[[0mdebug[0m] [0mWaiting for thread run-main-0 to terminate.[0m
 [0m[[0mdebug[0m] [0m	Thread run-main-0 exited.[0m
-[0m[[0mdebug[0m] [0mWaiting for thread Anytime-akka.actor.default-dispatcher-6 to terminate.[0m
-[0m[[0mdebug[0m] [0m	Thread Anytime-akka.actor.default-dispatcher-6 exited.[0m
-[0m[[0mdebug[0m] [0mWaiting for thread Anytime-akka.actor.default-dispatcher-11 to terminate.[0m
-[0m[[0mdebug[0m] [0m	Thread Anytime-akka.actor.default-dispatcher-11 exited.[0m
 [0m[[0mdebug[0m] [0mInterrupting remaining threads (should be all daemons).[0m
 [0m[[0mdebug[0m] [0mSandboxed run complete..[0m
 [0m[[0mdebug[0m] [0mExited with code 0[0m

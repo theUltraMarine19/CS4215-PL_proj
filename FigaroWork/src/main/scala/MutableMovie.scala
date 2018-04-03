@@ -49,7 +49,7 @@ object MutableMovie {
   }
 
   private class Appearance(actor: Actor, movie: Movie) {
-    actor.movies ::= movie
+    actor.movies ::= movie    // prepend movie to actor.movies
     movie.actors ::= actor
 
     // Symbols are sting constants
