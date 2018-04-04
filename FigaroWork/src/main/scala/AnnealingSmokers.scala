@@ -3,9 +3,7 @@ import com.cra.figaro.language._
 import com.cra.figaro.library.compound.^^
 
 
-/**
- * A Markov logic example.
- */
+// A Markov logic example.
 object AnnealingSmokers {
   private class Person {
     val smokes = Flip(0.6)
