@@ -77,7 +77,7 @@ object MutableMovie {
   private val appearance4 = new Appearance(actor3, movie3)
   private val otherActors = Array.fill(numActors - 3)(new Actor)
   private val otherMovies = Array.fill(numMovies - 3)(new Movie)
-  private val actors = otherActors ++ Array(actor1, actor2, actor3)
+  private val actors = otherActors ++ Array(actor1, actor2, actor3) // ++ command is for append at the beginning of a list
   private val movies = otherMovies ++ Array(movie1, movie2, movie3)
   private val otherAppearances =
     Array.fill(numAppearances - 4)(new Appearance(actors(random.nextInt(numActors)), movies(random.nextInt(numMovies))))
@@ -98,10 +98,9 @@ object MutableMovie {
       (0.2, () => ProposalScheme(actors(random.nextInt(numActors)).famous)))
   }
 
-  /*
-   * It's possible that as a result of other attributes changing, an appearance becomes awarded or unawarded.
-   * Therefore, we have to take this into account in the proposal scheme.
-   */
+  // It's possible that as a result of other attributes changing, an appearance becomes awarded or unawarded.
+  // Therefore, we have to take this into account in the proposal scheme.
+  
   private def switchAwards(): ProposalScheme = {
     val (awarded, unawarded) = appearances.partition(_.award.value)
     awarded.length match {

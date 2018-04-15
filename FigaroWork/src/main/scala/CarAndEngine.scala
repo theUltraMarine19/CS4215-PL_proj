@@ -14,7 +14,7 @@ object CarAndEngine {
 
   private class V8 extends Engine {
     val power: Element[Symbol] = Select(0.8 -> 'high, 0.2 -> 'medium)("power", this) // name "power" as the instance of this power being created
-  }
+  }                                                                                  // "power" will now be used to reference
 
   private class V6 extends Engine {
     val power: Element[Symbol] = Select(0.2 -> 'high, 0.5 -> 'medium, 0.3 -> 'low)("power", this)
@@ -25,7 +25,7 @@ object CarAndEngine {
   }
 
   class Car extends ElementCollection {
-    val engine = Uniform[Engine](new V8, new V6, MySuperEngine)("engine", this)
+    val engine = Uniform[Engine](new V8, new V6)("engine", this)
 
     val speed = CPD(
       get[Symbol]("engine.power"),

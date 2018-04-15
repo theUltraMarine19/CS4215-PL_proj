@@ -12,7 +12,7 @@ object Firms {
   private val firms = Array.fill(20)(new Firm)
   private val winner = discrete.Uniform(firms: _*)
   private val winningBid = Chain(winner, (f: Firm) => f.bid)
-  winningBid.setConstraint((d: Double) => 20 - d)
+  winningBid.setConstraint((d: Double) => 20 - d)   // make the probability of a winning bid less likely
 
   def main(args: Array[String]) {
     val winningEfficiency = Chain(winner, (f: Firm) => f.efficient)
