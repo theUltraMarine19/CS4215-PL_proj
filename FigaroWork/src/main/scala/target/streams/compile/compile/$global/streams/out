@@ -1,0 +1,328 @@
+[0m[[0mdebug[0m] [0m[0m
+[0m[[0mdebug[0m] [0mInitial source changes: [0m
+[0m[[0mdebug[0m] [0m	removed:Set()[0m
+[0m[[0mdebug[0m] [0m	added: Set(/home/arijit/Documents/Sem 6/PLproj/FigaroWork/src/main/scala/Smokers.scala, /home/arijit/Documents/Sem 6/PLproj/FigaroWork/src/main/scala/MultiDecision.scala, /home/arijit/Documents/Sem 6/PLproj/FigaroWork/src/main/scala/SimpleMovie.scala, /home/arijit/Documents/Sem 6/PLproj/FigaroWork/src/main/scala/Firms.scala, /home/arijit/Documents/Sem 6/PLproj/FigaroWork/src/main/scala/Test.scala, /home/arijit/Documents/Sem 6/PLproj/FigaroWork/src/main/scala/testVE.scala, /home/arijit/Documents/Sem 6/PLproj/FigaroWork/src/main/scala/pureScala.scala, /home/arijit/Documents/Sem 6/PLproj/FigaroWork/src/main/scala/figaroScala.scala, /home/arijit/Documents/Sem 6/PLproj/FigaroWork/src/main/scala/testBP.scala, /home/arijit/Documents/Sem 6/PLproj/FigaroWork/src/main/scala/MultiValuedReferenceUncertainty.scala, /home/arijit/Documents/Sem 6/PLproj/FigaroWork/src/main/scala/Sources.scala, /home/arijit/Documents/Sem 6/PLproj/FigaroWork/src/main/scala/Abstract.scala, /home/arijit/Documents/Sem 6/PLproj/FigaroWork/src/main/scala/test1.scala, /home/arijit/Documents/Sem 6/PLproj/FigaroWork/src/main/scala/LazyList.scala, /home/arijit/Documents/Sem 6/PLproj/FigaroWork/src/main/scala/univ.scala, /home/arijit/Documents/Sem 6/PLproj/FigaroWork/src/main/scala/Burglary.scala, /home/arijit/Documents/Sem 6/PLproj/FigaroWork/src/main/scala/Entrepreneur.scala, /home/arijit/Documents/Sem 6/PLproj/FigaroWork/src/main/scala/MutableMovie.scala, /home/arijit/Documents/Sem 6/PLproj/FigaroWork/src/main/scala/CarAndEngine.scala, /home/arijit/Documents/Sem 6/PLproj/FigaroWork/src/main/scala/AnnealingSmokers.scala, /home/arijit/Documents/Sem 6/PLproj/FigaroWork/src/main/scala/ValveReliability.scala, /home/arijit/Documents/Sem 6/PLproj/FigaroWork/src/main/scala/testImp.scala)[0m
+[0m[[0mdebug[0m] [0m	modified: Set()[0m
+[0m[[0mdebug[0m] [0mRemoved products: Set()[0m
+[0m[[0mdebug[0m] [0mExternal API changes: API Changes: Set()[0m
+[0m[[0mdebug[0m] [0mModified binary dependencies: Set()[0m
+[0m[[0mdebug[0m] [0mInitial directly invalidated sources: Set(/home/arijit/Documents/Sem 6/PLproj/FigaroWork/src/main/scala/Smokers.scala, /home/arijit/Documents/Sem 6/PLproj/FigaroWork/src/main/scala/MultiDecision.scala, /home/arijit/Documents/Sem 6/PLproj/FigaroWork/src/main/scala/SimpleMovie.scala, /home/arijit/Documents/Sem 6/PLproj/FigaroWork/src/main/scala/Firms.scala, /home/arijit/Documents/Sem 6/PLproj/FigaroWork/src/main/scala/Test.scala, /home/arijit/Documents/Sem 6/PLproj/FigaroWork/src/main/scala/testVE.scala, /home/arijit/Documents/Sem 6/PLproj/FigaroWork/src/main/scala/pureScala.scala, /home/arijit/Documents/Sem 6/PLproj/FigaroWork/src/main/scala/figaroScala.scala, /home/arijit/Documents/Sem 6/PLproj/FigaroWork/src/main/scala/testBP.scala, /home/arijit/Documents/Sem 6/PLproj/FigaroWork/src/main/scala/MultiValuedReferenceUncertainty.scala, /home/arijit/Documents/Sem 6/PLproj/FigaroWork/src/main/scala/Sources.scala, /home/arijit/Documents/Sem 6/PLproj/FigaroWork/src/main/scala/Abstract.scala, /home/arijit/Documents/Sem 6/PLproj/FigaroWork/src/main/scala/test1.scala, /home/arijit/Documents/Sem 6/PLproj/FigaroWork/src/main/scala/LazyList.scala, /home/arijit/Documents/Sem 6/PLproj/FigaroWork/src/main/scala/univ.scala, /home/arijit/Documents/Sem 6/PLproj/FigaroWork/src/main/scala/Burglary.scala, /home/arijit/Documents/Sem 6/PLproj/FigaroWork/src/main/scala/Entrepreneur.scala, /home/arijit/Documents/Sem 6/PLproj/FigaroWork/src/main/scala/MutableMovie.scala, /home/arijit/Documents/Sem 6/PLproj/FigaroWork/src/main/scala/CarAndEngine.scala, /home/arijit/Documents/Sem 6/PLproj/FigaroWork/src/main/scala/AnnealingSmokers.scala, /home/arijit/Documents/Sem 6/PLproj/FigaroWork/src/main/scala/ValveReliability.scala, /home/arijit/Documents/Sem 6/PLproj/FigaroWork/src/main/scala/testImp.scala)[0m
+[0m[[0mdebug[0m] [0m[0m
+[0m[[0mdebug[0m] [0mSources indirectly invalidated by:[0m
+[0m[[0mdebug[0m] [0m	product: Set()[0m
+[0m[[0mdebug[0m] [0m	binary dep: Set()[0m
+[0m[[0mdebug[0m] [0m	external source: Set()[0m
+[0m[[0mdebug[0m] [0mAll initially invalidated sources: Set(/home/arijit/Documents/Sem 6/PLproj/FigaroWork/src/main/scala/Smokers.scala, /home/arijit/Documents/Sem 6/PLproj/FigaroWork/src/main/scala/MultiDecision.scala, /home/arijit/Documents/Sem 6/PLproj/FigaroWork/src/main/scala/SimpleMovie.scala, /home/arijit/Documents/Sem 6/PLproj/FigaroWork/src/main/scala/Firms.scala, /home/arijit/Documents/Sem 6/PLproj/FigaroWork/src/main/scala/Test.scala, /home/arijit/Documents/Sem 6/PLproj/FigaroWork/src/main/scala/testVE.scala, /home/arijit/Documents/Sem 6/PLproj/FigaroWork/src/main/scala/pureScala.scala, /home/arijit/Documents/Sem 6/PLproj/FigaroWork/src/main/scala/figaroScala.scala, /home/arijit/Documents/Sem 6/PLproj/FigaroWork/src/main/scala/testBP.scala, /home/arijit/Documents/Sem 6/PLproj/FigaroWork/src/main/scala/MultiValuedReferenceUncertainty.scala, /home/arijit/Documents/Sem 6/PLproj/FigaroWork/src/main/scala/Sources.scala, /home/arijit/Documents/Sem 6/PLproj/FigaroWork/src/main/scala/Abstract.scala, /home/arijit/Documents/Sem 6/PLproj/FigaroWork/src/main/scala/test1.scala, /home/arijit/Documents/Sem 6/PLproj/FigaroWork/src/main/scala/LazyList.scala, /home/arijit/Documents/Sem 6/PLproj/FigaroWork/src/main/scala/univ.scala, /home/arijit/Documents/Sem 6/PLproj/FigaroWork/src/main/scala/Burglary.scala, /home/arijit/Documents/Sem 6/PLproj/FigaroWork/src/main/scala/Entrepreneur.scala, /home/arijit/Documents/Sem 6/PLproj/FigaroWork/src/main/scala/MutableMovie.scala, /home/arijit/Documents/Sem 6/PLproj/FigaroWork/src/main/scala/CarAndEngine.scala, /home/arijit/Documents/Sem 6/PLproj/FigaroWork/src/main/scala/AnnealingSmokers.scala, /home/arijit/Documents/Sem 6/PLproj/FigaroWork/src/main/scala/ValveReliability.scala, /home/arijit/Documents/Sem 6/PLproj/FigaroWork/src/main/scala/testImp.scala)[0m
+[0m[[0mdebug[0m] [0mRecompiling all 22 sources: invalidated sources (22) exceeded 50.0% of all sources[0m
+[0m[[0minfo[0m] [0mCompiling 22 Scala sources to /home/arijit/Documents/Sem 6/PLproj/FigaroWork/src/main/scala/target/scala-2.10/classes...[0m
+[0m[[0mdebug[0m] [0mGetting compiler-interface from component compiler for Scala 2.10.4[0m
+[0m[[0mdebug[0m] [0mGetting compiler-interface from component compiler for Scala 2.10.4[0m
+[0m[[0mdebug[0m] [0mRunning cached compiler 5be14e33, interfacing (CompilerInterface) with Scala compiler version 2.10.4[0m
+[0m[[0mdebug[0m] [0mCalling Scala compiler with arguments  (CompilerInterface):[0m
+[0m[[0mdebug[0m] [0m	-bootclasspath[0m
+[0m[[0mdebug[0m] [0m	/usr/lib/jvm/java-8-oracle/jre/lib/resources.jar:/usr/lib/jvm/java-8-oracle/jre/lib/rt.jar:/usr/lib/jvm/java-8-oracle/jre/lib/sunrsasign.jar:/usr/lib/jvm/java-8-oracle/jre/lib/jsse.jar:/usr/lib/jvm/java-8-oracle/jre/lib/jce.jar:/usr/lib/jvm/java-8-oracle/jre/lib/charsets.jar:/usr/lib/jvm/java-8-oracle/jre/lib/jfr.jar:/usr/lib/jvm/java-8-oracle/jre/classes:/home/arijit/.sbt/boot/scala-2.10.4/lib/scala-library.jar[0m
+[0m[[0mdebug[0m] [0m	-classpath[0m
+[0m[[0mdebug[0m] [0m	/home/arijit/Documents/Sem 6/PLproj/FigaroWork/src/main/scala/target/scala-2.10/classes[0m
+[0m[[31merror[0m] [0m/home/arijit/Documents/Sem 6/PLproj/FigaroWork/src/main/scala/Abstract.scala:1: object cra is not a member of package com[0m
+[0m[[31merror[0m] [0mimport com.cra.figaro.language._[0m
+[0m[[31merror[0m] [0m           ^[0m
+[0m[[31merror[0m] [0m/home/arijit/Documents/Sem 6/PLproj/FigaroWork/src/main/scala/Abstract.scala:2: object cra is not a member of package com[0m
+[0m[[31merror[0m] [0mimport com.cra.figaro.library.atomic.continuous.Uniform[0m
+[0m[[31merror[0m] [0m           ^[0m
+[0m[[31merror[0m] [0m/home/arijit/Documents/Sem 6/PLproj/FigaroWork/src/main/scala/Abstract.scala:3: object cra is not a member of package com[0m
+[0m[[31merror[0m] [0mimport com.cra.figaro.library.compound.If[0m
+[0m[[31merror[0m] [0m           ^[0m
+[0m[[31merror[0m] [0m/home/arijit/Documents/Sem 6/PLproj/FigaroWork/src/main/scala/Abstract.scala:4: object cra is not a member of package com[0m
+[0m[[31merror[0m] [0mimport com.cra.figaro.algorithm.{AbstractionScheme, Abstraction}[0m
+[0m[[31merror[0m] [0m           ^[0m
+[0m[[31merror[0m] [0m/home/arijit/Documents/Sem 6/PLproj/FigaroWork/src/main/scala/Abstract.scala:5: object cra is not a member of package com[0m
+[0m[[31merror[0m] [0mimport com.cra.figaro.algorithm.factored._[0m
+[0m[[31merror[0m] [0m           ^[0m
+[0m[[31merror[0m] [0m/home/arijit/Documents/Sem 6/PLproj/FigaroWork/src/main/scala/Abstract.scala:10: not found: value Flip[0m
+[0m[[31merror[0m] [0m		val flip = Flip(0.5)[0m
+[0m[[31merror[0m] [0m		           ^[0m
+[0m[[31merror[0m] [0m/home/arijit/Documents/Sem 6/PLproj/FigaroWork/src/main/scala/Abstract.scala:11: not found: value Uniform[0m
+[0m[[31merror[0m] [0m		val uniform1 = Uniform(0.0, 1.0)[0m
+[0m[[31merror[0m] [0m		               ^[0m
+[0m[[31merror[0m] [0m/home/arijit/Documents/Sem 6/PLproj/FigaroWork/src/main/scala/Abstract.scala:12: not found: value Uniform[0m
+[0m[[31merror[0m] [0m		val uniform2 = Uniform(1.0, 2.0)[0m
+[0m[[31merror[0m] [0m		               ^[0m
+[0m[[31merror[0m] [0m/home/arijit/Documents/Sem 6/PLproj/FigaroWork/src/main/scala/Abstract.scala:13: not found: value If[0m
+[0m[[31merror[0m] [0m		val chain = If(flip, uniform1, uniform2)[0m
+[0m[[31merror[0m] [0m		            ^[0m
+[0m[[31merror[0m] [0m/home/arijit/Documents/Sem 6/PLproj/FigaroWork/src/main/scala/Abstract.scala:14: not found: value Apply[0m
+[0m[[31merror[0m] [0m		val apply = Apply(chain, (d: Double) => d + 1.0)[0m
+[0m[[31merror[0m] [0m		            ^[0m
+[0m[[31merror[0m] [0m/home/arijit/Documents/Sem 6/PLproj/FigaroWork/src/main/scala/Abstract.scala:20: not found: value VariableElimination[0m
+[0m[[31merror[0m] [0m		val ve = VariableElimination(flip)[0m
+[0m[[31merror[0m] [0m		         ^[0m
+[0m[[31merror[0m] [0m/home/arijit/Documents/Sem 6/PLproj/FigaroWork/src/main/scala/AnnealingSmokers.scala:1: object cra is not a member of package com[0m
+[0m[[31merror[0m] [0mimport com.cra.figaro.algorithm.sampling._[0m
+[0m[[31merror[0m] [0m           ^[0m
+[0m[[31merror[0m] [0m/home/arijit/Documents/Sem 6/PLproj/FigaroWork/src/main/scala/AnnealingSmokers.scala:2: object cra is not a member of package com[0m
+[0m[[31merror[0m] [0mimport com.cra.figaro.language._[0m
+[0m[[31merror[0m] [0m           ^[0m
+[0m[[31merror[0m] [0m/home/arijit/Documents/Sem 6/PLproj/FigaroWork/src/main/scala/AnnealingSmokers.scala:3: object cra is not a member of package com[0m
+[0m[[31merror[0m] [0mimport com.cra.figaro.library.compound.^^[0m
+[0m[[31merror[0m] [0m           ^[0m
+[0m[[31merror[0m] [0m/home/arijit/Documents/Sem 6/PLproj/FigaroWork/src/main/scala/AnnealingSmokers.scala:9: not found: value Flip[0m
+[0m[[31merror[0m] [0m    val smokes = Flip(0.6)[0m
+[0m[[31merror[0m] [0m                 ^[0m
+[0m[[31merror[0m] [0m/home/arijit/Documents/Sem 6/PLproj/FigaroWork/src/main/scala/AnnealingSmokers.scala:20: not found: value ^^[0m
+[0m[[31merror[0m] [0m    ^^(p1.smokes, p2.smokes).setConstraint(smokingInfluence)[0m
+[0m[[31merror[0m] [0m    ^[0m
+[0m[[31merror[0m] [0m/home/arijit/Documents/Sem 6/PLproj/FigaroWork/src/main/scala/AnnealingSmokers.scala:24: not found: value MetropolisHastingsAnnealer[0m
+[0m[[31merror[0m] [0m    val alg = MetropolisHastingsAnnealer(ProposalScheme.default, Schedule.default(3.0))[0m
+[0m[[31merror[0m] [0m              ^[0m
+[0m[[31merror[0m] [0m/home/arijit/Documents/Sem 6/PLproj/FigaroWork/src/main/scala/Burglary.scala:1: object cra is not a member of package com[0m
+[0m[[31merror[0m] [0mimport com.cra.figaro.algorithm.factored._[0m
+[0m[[31merror[0m] [0m           ^[0m
+[0m[[31merror[0m] [0m/home/arijit/Documents/Sem 6/PLproj/FigaroWork/src/main/scala/Burglary.scala:2: object cra is not a member of package com[0m
+[0m[[31merror[0m] [0mimport com.cra.figaro.language._[0m
+[0m[[31merror[0m] [0m           ^[0m
+[0m[[31merror[0m] [0m/home/arijit/Documents/Sem 6/PLproj/FigaroWork/src/main/scala/Burglary.scala:3: object cra is not a member of package com[0m
+[0m[[31merror[0m] [0mimport com.cra.figaro.library.compound._[0m
+[0m[[31merror[0m] [0m           ^[0m
+[0m[[31merror[0m] [0m/home/arijit/Documents/Sem 6/PLproj/FigaroWork/src/main/scala/Burglary.scala:5: not found: value Universe[0m
+[0m[[31merror[0m] [0m	Universe.createNew()[0m
+[0m[[31merror[0m] [0m	^[0m
+[0m[[31merror[0m] [0m/home/arijit/Documents/Sem 6/PLproj/FigaroWork/src/main/scala/Burglary.scala:6: not found: value Flip[0m
+[0m[[31merror[0m] [0m	private val burglary = Flip(0.01)[0m
+[0m[[31merror[0m] [0m	                       ^[0m
+[0m[[31merror[0m] [0m/home/arijit/Documents/Sem 6/PLproj/FigaroWork/src/main/scala/Burglary.scala:7: not found: value Flip[0m
+[0m[[31merror[0m] [0m	private val earthquake = Flip(0.0001)[0m
+[0m[[31merror[0m] [0m	                         ^[0m
+[0m[[31merror[0m] [0m/home/arijit/Documents/Sem 6/PLproj/FigaroWork/src/main/scala/Burglary.scala:8: not found: value CPD[0m
+[0m[[31merror[0m] [0m	private val alarm = CPD(burglary, earthquake,[0m
+[0m[[31merror[0m] [0m	                    ^[0m
+[0m[[31merror[0m] [0m/home/arijit/Documents/Sem 6/PLproj/FigaroWork/src/main/scala/Burglary.scala:13: not found: value CPD[0m
+[0m[[31merror[0m] [0m	private val johnCalls = CPD(alarm,[0m
+[0m[[31merror[0m] [0m	                        ^[0m
+[0m[[31merror[0m] [0m/home/arijit/Documents/Sem 6/PLproj/FigaroWork/src/main/scala/Burglary.scala:19: not found: value VariableElimination[0m
+[0m[[31merror[0m] [0m		val alg = VariableElimination(burglary, earthquake)[0m
+[0m[[31merror[0m] [0m		          ^[0m
+[0m[[31merror[0m] [0m/home/arijit/Documents/Sem 6/PLproj/FigaroWork/src/main/scala/CarAndEngine.scala:1: object cra is not a member of package com[0m
+[0m[[31merror[0m] [0mimport com.cra.figaro.algorithm.sampling._[0m
+[0m[[31merror[0m] [0m           ^[0m
+[0m[[31merror[0m] [0m/home/arijit/Documents/Sem 6/PLproj/FigaroWork/src/main/scala/CarAndEngine.scala:2: object cra is not a member of package com[0m
+[0m[[31merror[0m] [0mimport com.cra.figaro.algorithm.factored._[0m
+[0m[[31merror[0m] [0m           ^[0m
+[0m[[31merror[0m] [0m/home/arijit/Documents/Sem 6/PLproj/FigaroWork/src/main/scala/CarAndEngine.scala:3: object cra is not a member of package com[0m
+[0m[[31merror[0m] [0mimport com.cra.figaro.language._[0m
+[0m[[31merror[0m] [0m           ^[0m
+[0m[[31merror[0m] [0m/home/arijit/Documents/Sem 6/PLproj/FigaroWork/src/main/scala/CarAndEngine.scala:4: object cra is not a member of package com[0m
+[0m[[31merror[0m] [0mimport com.cra.figaro.library.compound._[0m
+[0m[[31merror[0m] [0m           ^[0m
+[0m[[31merror[0m] [0m/home/arijit/Documents/Sem 6/PLproj/FigaroWork/src/main/scala/CarAndEngine.scala:5: object cra is not a member of package com[0m
+[0m[[31merror[0m] [0mimport com.cra.figaro.library.atomic.discrete.Uniform[0m
+[0m[[31merror[0m] [0m           ^[0m
+[0m[[31merror[0m] [0m/home/arijit/Documents/Sem 6/PLproj/FigaroWork/src/main/scala/CarAndEngine.scala:6: object cra is not a member of package com[0m
+[0m[[31merror[0m] [0mimport com.cra.figaro.library.atomic.continuous.Normal[0m
+[0m[[31merror[0m] [0m           ^[0m
+[0m[[31merror[0m] [0m/home/arijit/Documents/Sem 6/PLproj/FigaroWork/src/main/scala/CarAndEngine.scala:11: not found: type ElementCollection[0m
+[0m[[31merror[0m] [0m  abstract class Engine extends ElementCollection { // Engine is an instance of ElementCollection[0m
+[0m[[31merror[0m] [0m                                ^[0m
+[0m[[31merror[0m] [0m/home/arijit/Documents/Sem 6/PLproj/FigaroWork/src/main/scala/CarAndEngine.scala:12: not found: type Element[0m
+[0m[[31merror[0m] [0m    val power: Element[Symbol][0m
+[0m[[31merror[0m] [0m               ^[0m
+[0m[[31merror[0m] [0m/home/arijit/Documents/Sem 6/PLproj/FigaroWork/src/main/scala/CarAndEngine.scala:16: not found: type Element[0m
+[0m[[31merror[0m] [0m    val power: Element[Symbol] = Select(0.8 -> 'high, 0.2 -> 'medium)("power", this) // name "power" as the instance of this power being created[0m
+[0m[[31merror[0m] [0m               ^[0m
+[0m[[31merror[0m] [0m/home/arijit/Documents/Sem 6/PLproj/FigaroWork/src/main/scala/CarAndEngine.scala:16: not found: value Select[0m
+[0m[[31merror[0m] [0m    val power: Element[Symbol] = Select(0.8 -> 'high, 0.2 -> 'medium)("power", this) // name "power" as the instance of this power being created[0m
+[0m[[31merror[0m] [0m                                 ^[0m
+[0m[[31merror[0m] [0m/home/arijit/Documents/Sem 6/PLproj/FigaroWork/src/main/scala/CarAndEngine.scala:20: not found: type Element[0m
+[0m[[31merror[0m] [0m    val power: Element[Symbol] = Select(0.2 -> 'high, 0.5 -> 'medium, 0.3 -> 'low)("power", this)[0m
+[0m[[31merror[0m] [0m               ^[0m
+[0m[[31merror[0m] [0m/home/arijit/Documents/Sem 6/PLproj/FigaroWork/src/main/scala/CarAndEngine.scala:20: not found: value Select[0m
+[0m[[31merror[0m] [0m    val power: Element[Symbol] = Select(0.2 -> 'high, 0.5 -> 'medium, 0.3 -> 'low)("power", this)[0m
+[0m[[31merror[0m] [0m                                 ^[0m
+[0m[[31merror[0m] [0m/home/arijit/Documents/Sem 6/PLproj/FigaroWork/src/main/scala/CarAndEngine.scala:24: not found: type Element[0m
+[0m[[31merror[0m] [0m    override val power: Element[Symbol] = Constant('high)("power", this)[0m
+[0m[[31merror[0m] [0m                        ^[0m
+[0m[[31merror[0m] [0m/home/arijit/Documents/Sem 6/PLproj/FigaroWork/src/main/scala/CarAndEngine.scala:24: not found: value Constant[0m
+[0m[[31merror[0m] [0m    override val power: Element[Symbol] = Constant('high)("power", this)[0m
+[0m[[31merror[0m] [0m                                          ^[0m
+[0m[[31merror[0m] [0m/home/arijit/Documents/Sem 6/PLproj/FigaroWork/src/main/scala/CarAndEngine.scala:27: not found: type ElementCollection[0m
+[0m[[31merror[0m] [0m  class Car extends ElementCollection {[0m
+[0m[[31merror[0m] [0m                    ^[0m
+[0m[[31merror[0m] [0m/home/arijit/Documents/Sem 6/PLproj/FigaroWork/src/main/scala/CarAndEngine.scala:28: not found: value Uniform[0m
+[0m[[31merror[0m] [0m    val engine = Uniform[Engine](new V8, new V6)("engine", this)[0m
+[0m[[31merror[0m] [0m                 ^[0m
+[0m[[31merror[0m] [0m/home/arijit/Documents/Sem 6/PLproj/FigaroWork/src/main/scala/CarAndEngine.scala:30: not found: value CPD[0m
+[0m[[31merror[0m] [0m    val speed = CPD([0m
+[0m[[31merror[0m] [0m                ^[0m
+[0m[[31merror[0m] [0m/home/arijit/Documents/Sem 6/PLproj/FigaroWork/src/main/scala/CarAndEngine.scala:39: not found: value VariableElimination[0m
+[0m[[31merror[0m] [0m    val alg = VariableElimination(car.speed)[0m
+[0m[[31merror[0m] [0m              ^[0m
+[0m[[31merror[0m] [0m/home/arijit/Documents/Sem 6/PLproj/FigaroWork/src/main/scala/Entrepreneur.scala:1: object cra is not a member of package com[0m
+[0m[[31merror[0m] [0mimport com.cra.figaro.algorithm.decision._[0m
+[0m[[31merror[0m] [0m           ^[0m
+[0m[[31merror[0m] [0m/home/arijit/Documents/Sem 6/PLproj/FigaroWork/src/main/scala/Entrepreneur.scala:2: object cra is not a member of package com[0m
+[0m[[31merror[0m] [0mimport com.cra.figaro.algorithm.factored._[0m
+[0m[[31merror[0m] [0m           ^[0m
+[0m[[31merror[0m] [0m/home/arijit/Documents/Sem 6/PLproj/FigaroWork/src/main/scala/Entrepreneur.scala:3: object cra is not a member of package com[0m
+[0m[[31merror[0m] [0mimport com.cra.figaro.algorithm.sampling._[0m
+[0m[[31merror[0m] [0m           ^[0m
+[0m[[31merror[0m] [0m/home/arijit/Documents/Sem 6/PLproj/FigaroWork/src/main/scala/Entrepreneur.scala:4: object cra is not a member of package com[0m
+[0m[[31merror[0m] [0mimport com.cra.figaro.language._[0m
+[0m[[31merror[0m] [0m           ^[0m
+[0m[[31merror[0m] [0m/home/arijit/Documents/Sem 6/PLproj/FigaroWork/src/main/scala/Entrepreneur.scala:5: object cra is not a member of package com[0m
+[0m[[31merror[0m] [0mimport com.cra.figaro.library.compound._[0m
+[0m[[31merror[0m] [0m           ^[0m
+[0m[[31merror[0m] [0m/home/arijit/Documents/Sem 6/PLproj/FigaroWork/src/main/scala/Entrepreneur.scala:6: object cra is not a member of package com[0m
+[0m[[31merror[0m] [0mimport com.cra.figaro.library.decision._[0m
+[0m[[31merror[0m] [0m           ^[0m
+[0m[[31merror[0m] [0m/home/arijit/Documents/Sem 6/PLproj/FigaroWork/src/main/scala/Entrepreneur.scala:12: not found: value Universe[0m
+[0m[[31merror[0m] [0m  Universe.createNew()[0m
+[0m[[31merror[0m] [0m  ^[0m
+[0m[[31merror[0m] [0m/home/arijit/Documents/Sem 6/PLproj/FigaroWork/src/main/scala/Entrepreneur.scala:14: not found: value Select[0m
+[0m[[31merror[0m] [0m  val market = Select(0.5 -> 0, 0.3 -> 1, 0.2 -> 2)   // normal RV[0m
+[0m[[31merror[0m] [0m               ^[0m
+[0m[[31merror[0m] [0m/home/arijit/Documents/Sem 6/PLproj/FigaroWork/src/main/scala/Entrepreneur.scala:16: not found: value CPD[0m
+[0m[[31merror[0m] [0m  val survey = CPD(market, 0 -> Select(0.6 -> 0, 0.3 -> 1, 0.1 -> 2), // RV with market as parent[0m
+[0m[[31merror[0m] [0m               ^[0m
+[0m[[31merror[0m] [0m/home/arijit/Documents/Sem 6/PLproj/FigaroWork/src/main/scala/Entrepreneur.scala:20: not found: value Decision[0m
+[0m[[31merror[0m] [0m  val found = Decision(survey, List(true, false))[0m
+[0m[[31merror[0m] [0m              ^[0m
+[0m[[31merror[0m] [0m/home/arijit/Documents/Sem 6/PLproj/FigaroWork/src/main/scala/Entrepreneur.scala:34: not found: value Apply[0m
+[0m[[31merror[0m] [0m  val value = Apply(found, market, valueFcn)  // utility variable computes a Double, conditioned upon the decision of found, and curr value of market element [0m
+[0m[[31merror[0m] [0m              ^[0m
+[0m[[31merror[0m] [0m/home/arijit/Documents/Sem 6/PLproj/FigaroWork/src/main/scala/Entrepreneur.scala:38: not found: value DecisionVariableElimination[0m
+[0m[[31merror[0m] [0m    val alg = DecisionVariableElimination(List(value), found) // use VariableElimination to compute optimal policy for found decision, set optimal policy in found element[0m
+[0m[[31merror[0m] [0m              ^[0m
+[0m[[31merror[0m] [0m/home/arijit/Documents/Sem 6/PLproj/FigaroWork/src/main/scala/Firms.scala:1: object cra is not a member of package com[0m
+[0m[[31merror[0m] [0mimport com.cra.figaro.algorithm.sampling._[0m
+[0m[[31merror[0m] [0m           ^[0m
+[0m[[31merror[0m] [0m/home/arijit/Documents/Sem 6/PLproj/FigaroWork/src/main/scala/Firms.scala:2: object cra is not a member of package com[0m
+[0m[[31merror[0m] [0mimport com.cra.figaro.language._[0m
+[0m[[31merror[0m] [0m           ^[0m
+[0m[[31merror[0m] [0m/home/arijit/Documents/Sem 6/PLproj/FigaroWork/src/main/scala/Firms.scala:3: object cra is not a member of package com[0m
+[0m[[31merror[0m] [0mimport com.cra.figaro.library.atomic._[0m
+[0m[[31merror[0m] [0m           ^[0m
+[0m[[31merror[0m] [0m/home/arijit/Documents/Sem 6/PLproj/FigaroWork/src/main/scala/Firms.scala:4: object cra is not a member of package com[0m
+[0m[[31merror[0m] [0mimport com.cra.figaro.library.compound._[0m
+[0m[[31merror[0m] [0m           ^[0m
+[0m[[31merror[0m] [0m/home/arijit/Documents/Sem 6/PLproj/FigaroWork/src/main/scala/Firms.scala:8: not found: value Flip[0m
+[0m[[31merror[0m] [0m    val efficient = Flip(0.3)[0m
+[0m[[31merror[0m] [0m                    ^[0m
+[0m[[31merror[0m] [0m/home/arijit/Documents/Sem 6/PLproj/FigaroWork/src/main/scala/Firms.scala:9: not found: value If[0m
+[0m[[31merror[0m] [0m    val bid = If(efficient, continuous.Uniform(5, 15), continuous.Uniform(10, 20))[0m
+[0m[[31merror[0m] [0m              ^[0m
+[0m[[31merror[0m] [0m/home/arijit/Documents/Sem 6/PLproj/FigaroWork/src/main/scala/Firms.scala:13: not found: value discrete[0m
+[0m[[31merror[0m] [0m  private val winner = discrete.Uniform(firms: _*)[0m
+[0m[[31merror[0m] [0m                       ^[0m
+[0m[[31merror[0m] [0m/home/arijit/Documents/Sem 6/PLproj/FigaroWork/src/main/scala/Firms.scala:14: not found: value Chain[0m
+[0m[[31merror[0m] [0m  private val winningBid = Chain(winner, (f: Firm) => f.bid)[0m
+[0m[[31merror[0m] [0m                           ^[0m
+[0m[[31merror[0m] [0m/home/arijit/Documents/Sem 6/PLproj/FigaroWork/src/main/scala/Firms.scala:18: not found: value Chain[0m
+[0m[[31merror[0m] [0m    val winningEfficiency = Chain(winner, (f: Firm) => f.efficient)[0m
+[0m[[31merror[0m] [0m                            ^[0m
+[0m[[31merror[0m] [0m/home/arijit/Documents/Sem 6/PLproj/FigaroWork/src/main/scala/Firms.scala:19: not found: value Importance[0m
+[0m[[31merror[0m] [0m    val alg = Importance(winningEfficiency)[0m
+[0m[[31merror[0m] [0m              ^[0m
+[0m[[31merror[0m] [0m/home/arijit/Documents/Sem 6/PLproj/FigaroWork/src/main/scala/LazyList.scala:1: object cra is not a member of package com[0m
+[0m[[31merror[0m] [0mimport com.cra.figaro.language._[0m
+[0m[[31merror[0m] [0m           ^[0m
+[0m[[31merror[0m] [0m/home/arijit/Documents/Sem 6/PLproj/FigaroWork/src/main/scala/LazyList.scala:2: object cra is not a member of package com[0m
+[0m[[31merror[0m] [0mimport com.cra.figaro.library.compound.If[0m
+[0m[[31merror[0m] [0m           ^[0m
+[0m[[31merror[0m] [0m/home/arijit/Documents/Sem 6/PLproj/FigaroWork/src/main/scala/LazyList.scala:3: object cra is not a member of package com[0m
+[0m[[31merror[0m] [0mimport com.cra.figaro.algorithm.lazyfactored.LazyVariableElimination[0m
+[0m[[31merror[0m] [0m           ^[0m
+[0m[[31merror[0m] [0m/home/arijit/Documents/Sem 6/PLproj/FigaroWork/src/main/scala/LazyList.scala:4: object cra is not a member of package com[0m
+[0m[[31merror[0m] [0mimport com.cra.figaro.algorithm.lazyfactored.LazyValues[0m
+[0m[[31merror[0m] [0m           ^[0m
+[0m[[31merror[0m] [0m/home/arijit/Documents/Sem 6/PLproj/FigaroWork/src/main/scala/LazyList.scala:7: not found: value Universe[0m
+[0m[[31merror[0m] [0m  val universe = Universe.createNew()[0m
+[0m[[31merror[0m] [0m                 ^[0m
+[0m[[31merror[0m] [0m/home/arijit/Documents/Sem 6/PLproj/FigaroWork/src/main/scala/LazyList.scala:11: not found: type Element[0m
+[0m[[31merror[0m] [0m  case class Cons(head: Element[Symbol], tail: Element[L]) extends L[0m
+[0m[[31merror[0m] [0m                        ^[0m
+[0m[[31merror[0m] [0m/home/arijit/Documents/Sem 6/PLproj/FigaroWork/src/main/scala/LazyList.scala:11: not found: type Element[0m
+[0m[[31merror[0m] [0m  case class Cons(head: Element[Symbol], tail: Element[L]) extends L[0m
+[0m[[31merror[0m] [0m                                               ^[0m
+[0m[[31merror[0m] [0m/home/arijit/Documents/Sem 6/PLproj/FigaroWork/src/main/scala/LazyList.scala:13: not found: type Element[0m
+[0m[[31merror[0m] [0m  def contains(target: Symbol, el: Element[L]): Element[Boolean] = {[0m
+[0m[[31merror[0m] [0m                                                ^[0m
+[0m[[31merror[0m] [0m/home/arijit/Documents/Sem 6/PLproj/FigaroWork/src/main/scala/LazyList.scala:13: not found: type Element[0m
+[0m[[31merror[0m] [0m  def contains(target: Symbol, el: Element[L]): Element[Boolean] = {[0m
+[0m[[31merror[0m] [0m                                   ^[0m
+[0m[[31merror[0m] [0m/home/arijit/Documents/Sem 6/PLproj/FigaroWork/src/main/scala/LazyList.scala:14: not found: value Chain[0m
+[0m[[31merror[0m] [0m    Chain(el, (l: L) => {[0m
+[0m[[31merror[0m] [0m    ^[0m
+[0m[[31merror[0m] [0m/home/arijit/Documents/Sem 6/PLproj/FigaroWork/src/main/scala/LazyList.scala:22: not found: type Element[0m
+[0m[[31merror[0m] [0m  def generate(): Element[L] = {[0m
+[0m[[31merror[0m] [0m                  ^[0m
+[0m[[31merror[0m] [0m/home/arijit/Documents/Sem 6/PLproj/FigaroWork/src/main/scala/LazyList.scala:23: not found: value Apply[0m
+[0m[[31merror[0m] [0m    Apply(Flip(0.5), (b: Boolean) => if (b) Empty; else Cons(Select(0.6 -> 'a, 0.4 -> 'b), generate()))[0m
+[0m[[31merror[0m] [0m    ^[0m
+[0m[[31merror[0m] [0m/home/arijit/Documents/Sem 6/PLproj/FigaroWork/src/main/scala/LazyList.scala:32: not found: type LazyVariableElimination[0m
+[0m[[31merror[0m] [0m    val alg = new LazyVariableElimination(cb)[0m
+[0m[[31merror[0m] [0m                  ^[0m
+[0m[[31merror[0m] [0m/home/arijit/Documents/Sem 6/PLproj/FigaroWork/src/main/scala/MultiDecision.scala:1: object cra is not a member of package com[0m
+[0m[[31merror[0m] [0mimport com.cra.figaro.algorithm.decision._[0m
+[0m[[31merror[0m] [0m           ^[0m
+[0m[[31merror[0m] [0m/home/arijit/Documents/Sem 6/PLproj/FigaroWork/src/main/scala/MultiDecision.scala:2: object cra is not a member of package com[0m
+[0m[[31merror[0m] [0mimport com.cra.figaro.algorithm.factored._[0m
+[0m[[31merror[0m] [0m           ^[0m
+[0m[[31merror[0m] [0m/home/arijit/Documents/Sem 6/PLproj/FigaroWork/src/main/scala/MultiDecision.scala:3: object cra is not a member of package com[0m
+[0m[[31merror[0m] [0mimport com.cra.figaro.algorithm.sampling._[0m
+[0m[[31merror[0m] [0m           ^[0m
+[0m[[31merror[0m] [0m/home/arijit/Documents/Sem 6/PLproj/FigaroWork/src/main/scala/MultiDecision.scala:4: object cra is not a member of package com[0m
+[0m[[31merror[0m] [0mimport com.cra.figaro.language._[0m
+[0m[[31merror[0m] [0m           ^[0m
+[0m[[31merror[0m] [0m/home/arijit/Documents/Sem 6/PLproj/FigaroWork/src/main/scala/MultiDecision.scala:5: object cra is not a member of package com[0m
+[0m[[31merror[0m] [0mimport com.cra.figaro.library.compound._[0m
+[0m[[31merror[0m] [0m           ^[0m
+[0m[[31merror[0m] [0m/home/arijit/Documents/Sem 6/PLproj/FigaroWork/src/main/scala/MultiDecision.scala:6: object cra is not a member of package com[0m
+[0m[[31merror[0m] [0mimport com.cra.figaro.library.decision._[0m
+[0m[[31merror[0m] [0m           ^[0m
+[0m[[31merror[0m] [0m/home/arijit/Documents/Sem 6/PLproj/FigaroWork/src/main/scala/MultiDecision.scala:13: not found: value Universe[0m
+[0m[[31merror[0m] [0m  Universe.createNew()[0m
+[0m[[31merror[0m] [0m  ^[0m
+[0m[[31merror[0m] [0m/home/arijit/Documents/Sem 6/PLproj/FigaroWork/src/main/scala/MultiDecision.scala:15: not found: value Select[0m
+[0m[[31merror[0m] [0m  val market = Select(0.5 -> 0, 0.3 -> 1, 0.2 -> 2)[0m
+[0m[[31merror[0m] [0m               ^[0m
+[0m[[31merror[0m] [0m/home/arijit/Documents/Sem 6/PLproj/FigaroWork/src/main/scala/MultiDecision.scala:18: not found: value Decision[0m
+[0m[[31merror[0m] [0m  val test = Decision(List(true, false))[0m
+[0m[[31merror[0m] [0m             ^[0m
+[0m[[31merror[0m] [0m/home/arijit/Documents/Sem 6/PLproj/FigaroWork/src/main/scala/MultiDecision.scala:21: not found: value Apply[0m
+[0m[[31merror[0m] [0m  val cost = Apply(test, (b: Boolean) => if (b) -1.0 else 0.0)[0m
+[0m[[31merror[0m] [0m             ^[0m
+[0m[[31merror[0m] [0m/home/arijit/Documents/Sem 6/PLproj/FigaroWork/src/main/scala/MultiDecision.scala:23: not found: value RichCPD[0m
+[0m[[31merror[0m] [0m  val survey = RichCPD(test, market,[0m
+[0m[[31merror[0m] [0m               ^[0m
+[0m[[31merror[0m] [0m/home/arijit/Documents/Sem 6/PLproj/FigaroWork/src/main/scala/MultiDecision.scala:30: not found: value Decision[0m
+[0m[[31merror[0m] [0m  val found = Decision(survey, List(true, false))[0m
+[0m[[31merror[0m] [0m              ^[0m
+[0m[[31merror[0m] [0m/home/arijit/Documents/Sem 6/PLproj/FigaroWork/src/main/scala/MultiDecision.scala:44: not found: value Apply[0m
+[0m[[31merror[0m] [0m  val value = Apply(found, market, valueFcn)[0m
+[0m[[31merror[0m] [0m              ^[0m
+[0m[[31merror[0m] [0m/home/arijit/Documents/Sem 6/PLproj/FigaroWork/src/main/scala/MultiDecision.scala:48: not found: value VariableElimination[0m
+[0m[[31merror[0m] [0m    val ve_before = VariableElimination(value, cost)[0m
+[0m[[31merror[0m] [0m                    ^[0m
+[0m[[31merror[0m] [0m/home/arijit/Documents/Sem 6/PLproj/FigaroWork/src/main/scala/MultiDecision.scala:51: not found: type Universe[0m
+[0m[[31merror[0m] [0m    val propmaker = (mv: Universe, e: Element[_]) => ProposalScheme.default(mv)[0m
+[0m[[31merror[0m] [0m                         ^[0m
+[0m[[31merror[0m] [0m/home/arijit/Documents/Sem 6/PLproj/FigaroWork/src/main/scala/MultiDecision.scala:51: not found: type Element[0m
+[0m[[31merror[0m] [0m    val propmaker = (mv: Universe, e: Element[_]) => ProposalScheme.default(mv)[0m
+[0m[[31merror[0m] [0m                                      ^[0m
+[0m[[31merror[0m] [0m/home/arijit/Documents/Sem 6/PLproj/FigaroWork/src/main/scala/MultiDecision.scala:51: not found: value ProposalScheme[0m
+[0m[[31merror[0m] [0m    val propmaker = (mv: Universe, e: Element[_]) => ProposalScheme.default(mv)[0m
+[0m[[31merror[0m] [0m                                                     ^[0m
+[0m[[31merror[0m] [0m/home/arijit/Documents/Sem 6/PLproj/FigaroWork/src/main/scala/MultiDecision.scala:52: not found: value MultiDecisionMetropolisHastings[0m
+[0m[[31merror[0m] [0m    val alg = MultiDecisionMetropolisHastings(200000, propmaker, 20000, List(value, cost), test, found)[0m
+[0m[[31merror[0m] [0m              ^[0m
+[0m[[31merror[0m] [0m/home/arijit/Documents/Sem 6/PLproj/FigaroWork/src/main/scala/MultiDecision.scala:56: not found: value VariableElimination[0m
+[0m[[31merror[0m] [0m    val ve_after = VariableElimination(value, cost)[0m
+[0m[[31merror[0m] [0m                   ^[0m
+[0m[[31merror[0m] [0m/home/arijit/Documents/Sem 6/PLproj/FigaroWork/src/main/scala/MultiValuedReferenceUncertainty.scala:1: object cra is not a member of package com[0m
+[0m[[31merror[0m] [0mimport com.cra.figaro.algorithm.factored._[0m
+[0m[[31merror[0m] [0m           ^[0m
+[0m[[31merror[0m] [0m/home/arijit/Documents/Sem 6/PLproj/FigaroWork/src/main/scala/MultiValuedReferenceUncertainty.scala:2: object cra is not a member of package com[0m
+[0m[[31merror[0m] [0mimport com.cra.figaro.algorithm.sampling._[0m
+[0m[[31merror[0m] [0m           ^[0m
+[0m[[31merror[0m] [0m248 errors found[0m
+[0m[[0mdebug[0m] [0mCompilation failed (CompilerInterface)[0m
+[0m[[31merror[0m] [0m(compile:[31mcompile[0m) Compilation failed[0m
