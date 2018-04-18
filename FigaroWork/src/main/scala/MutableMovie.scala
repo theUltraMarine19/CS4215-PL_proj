@@ -49,7 +49,7 @@ object MutableMovie {
     actor.movies ::= movie    // prepend movie to actor.movies
     movie.actors ::= actor
 
-    // Symbols are sting constants
+    // Symbols are string constants
     def probAward(quality: Symbol, famous: Boolean) =
       (quality, famous) match {
         case ('low, false) => 0.001

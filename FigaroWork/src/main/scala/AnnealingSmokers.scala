@@ -3,7 +3,7 @@ import com.cra.figaro.language._
 import com.cra.figaro.library.compound.^^
 
 
-// A Markov logic example.
+// A Markov logic example. Same as Smokers.scala
 object AnnealingSmokers {
   private class Person {
     val smokes = Flip(0.6)
@@ -21,7 +21,7 @@ object AnnealingSmokers {
   }
 
   def main(args: Array[String]) {
-    val alg = MetropolisHastingsAnnealer(ProposalScheme.default, Schedule.default(3.0))
+    val alg = MetropolisHastingsAnnealer(ProposalScheme.default, Schedule.default(3.0))	// inference algorithm is used along with annealing
     alg.start()
     Thread.sleep(1000)
     alg.stop()

@@ -1,4 +1,4 @@
-import com.cra.figaro.language._
+	import com.cra.figaro.language._
 import com.cra.figaro.algorithm.filtering.FactoredFrontier
 
 /**
@@ -17,15 +17,17 @@ object ValveReliability {
   Constant(OK)("v3", initial)
   
   // Elements representing the valves' rates of failure
+  // static variables. This is an invariant
   val static = Universe.createNew()
-  Select(0.997 -> OK, 0.002 -> RO, 0.001 -> RC)("f1", static)
-  Select(0.995 -> OK, 0.003 -> RO, 0.002 -> RC)("f2", static)
-  Select(0.993 -> OK, 0.004 -> RO, 0.003 -> RC)("f3", static)
+  Select(0.97 -> OK, 0.02 -> RO, 0.01 -> RC)("f1", static)
+  Select(0.95 -> OK, 0.03 -> RO, 0.02 -> RC)("f2", static)
+  Select(0.93 -> OK, 0.04 -> RO, 0.03 -> RC)("f3", static)
   
   // If a valve is OK, we model with the possibility of failure
   // Otherwise, the valve will remain in a failed state
   val failure = (v: ValveState, f: ValveState) => if(v == OK) f else v
   
+  // transition model beginning with initial universe
   val transition = (static: Universe, previous: Universe) => {
     val v1prev = previous.getElementByReference[ValveState]("v1")
     val v2prev = previous.getElementByReference[ValveState]("v2")
@@ -33,36 +35,42 @@ object ValveReliability {
     val f1 = static.getElementByReference[ValveState]("f1")
     val f2 = static.getElementByReference[ValveState]("f2")
     val f3 = static.getElementByReference[ValveState]("f3")
-    
+    // fetched using the type of variable, reference name
     val next = Universe.createNew()
+    // apply the failure function and store valve states in the next universe using same reference
     val v1 = Apply(v1prev, f1, failure)("v1", next)
     val v2 = Apply(v2prev, f2, failure)("v2", next)
     val v3 = Apply(v3prev, f3, failure)("v3", next)
     
     // The probabilities that the system remains open, closed, or controllable at a given time step
-    val open = Apply(v1, v2, v3, (v1: ValveState, v2: ValveState, v3: ValveState) => v1 == RO && (v2 == RO || v3 == RO))("open", next)
-    val closed = Apply(v1, v2, v3, (v1: ValveState, v2: ValveState, v3: ValveState) => v1 == RC || (v2 == RC && v3 == RC))("closed", next)
-    val controllable = Apply(v1, v2, v3, (v1: ValveState, v2: ValveState, v3: ValveState) => !((v1 == RO && (v2 == RO || v3 == RO)) || (v1 == RC || (v2 == RC && v3 == RC))))("controllable", next)
-    next
+    val open = Apply(v1, v2, v3, (v1: ValveState, v2: ValveState, v3: ValveState) => 
+    	v1 == RO && (v2 == RO || v3 == RO))("open", next)
+    val closed = Apply(v1, v2, v3, (v1: ValveState, v2: ValveState, v3: ValveState) => 
+    	v1 == RC || (v2 == RC && v3 == RC))("closed", next)
+    val controllable = Apply(v1, v2, v3, (v1: ValveState, v2: ValveState, v3: ValveState) => 
+    	!((v1 == RO && (v2 == RO || v3 == RO)) || (v1 == RC || (v2 == RC && v3 == RC))))("controllable", next)
+    next	// return this new next universe
   }
   
   def main(args: Array[String]) {
     val ff = FactoredFrontier(static, initial, transition, 5)
     ff.start()
-    println("|------------|------------|------------|------------|")
-    println("|Iteration   |Open        |Closed      |Controllable|")
-    println("|------------|------------|------------|------------|")
-    println("|           0|      0.0000|      0.0000|      1.0000|")
-    for(i <- 1 to 2000){
+    println("|------------|------------|------------|------------|---------|")
+    println("|Iteration   |Open        |Closed      |Controllable|v2 open  |")
+    println("|------------|------------|------------|------------|---------|")
+    println("|           0|      0.0000|      0.0000|      1.0000|    0.000|")
+    for(i <- 1 to 4){
       ff.advanceTime()
-      if(i % 50 == 0) {
+      // if(i % 50 == 0) {
         printf("|%12s|", i)
         printf("      %.6s|", ff.currentProbability("open", true))
         printf("      %.6s|", ff.currentProbability("closed", true))
-        printf("      %.6s|%n", ff.currentProbability("controllable", true))
-      }
+        printf("      %.6s|", ff.currentProbability("controllable", true))
+        printf("   %.6s|%n", ff.currentProbability("v2", RO))
+        
+      // }
     }
-    println("|------------|------------|------------|------------|")
+    println("|------------|------------|------------|------------|---------|")
     ff.kill()
   }
 }
