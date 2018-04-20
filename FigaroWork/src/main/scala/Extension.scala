@@ -50,7 +50,7 @@ object Extension {
 		val y = Uniform(0, 100);
 		val ve = VariableElimination(x)	// variable elimination to eliminate all other RVs other than flip
 		ve.start()
-		println(ve.probability(x, (x: Int) => x < 90))	// probability that x RV is true
+		println(ve.probability(x, (x: Int) => x < 90))	// probability that x RV is < 90
 	}	
 }
 
